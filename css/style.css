@@ -1,6 +1,9 @@
 body {
 	padding-top:5vh;
 }
+.img-fluid {
+
+}
 
 .instaimg img {margin-bottom:30px;}
 .instaimg img:hover {
