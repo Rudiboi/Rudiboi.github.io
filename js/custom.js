@@ -15,7 +15,11 @@ $(document).ready(function() {
                 return true; }
             }
         });
-
+    $("yes").click(function() {
+        $('title,html,body').animate({
+            scrollTop: $("icons").offset().top
+        }, 2000);
+    });
 
     userFeed.run();
 
