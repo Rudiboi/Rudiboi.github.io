@@ -13,7 +13,7 @@ $(document).ready(function() {
         filter: function (image) {
             if (!(image.link === "https://www.instagram.com/p/BW0ctE3gvQB/")) {
                 return true; }
-            }
+            } //
         });
     $("#yes").click(function() {
         $('title,html,body').animate({
