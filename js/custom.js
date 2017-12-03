@@ -15,9 +15,9 @@ $(document).ready(function() {
                 return true; }
             }
         });
-    $("yes").click(function() {
+    $("#yes").click(function() {
         $('title,html,body').animate({
-            scrollTop: $("icons").offset().top
+            scrollTop: $("#icons").offset().top
         }, 2000);
     });
 
