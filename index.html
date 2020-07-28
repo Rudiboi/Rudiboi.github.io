@@ -20,7 +20,14 @@
 
 <div class="container">
 
-    <div id="instafeed" class="row"></div>
+    <div id="instafeed"></div>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+      accessToken: InstagramToken
+    });
+    feed.run();
+</script>
 
 </div>
 <div class="icons" id="icons" align="center">
@@ -33,6 +40,7 @@
 
 <script src="./js/jquery.min.js"></script>
 <script src="./js/instafeed.min.js"></script>
+<script src='https://ho4upivo-inst-selection.herokuapp.com/token.js'></script>
 <script src="./js/custom.js"></script>
 
 </body>
